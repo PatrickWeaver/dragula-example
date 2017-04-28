@@ -2,7 +2,7 @@
 
 ### Version: 0.2
 
-This is an example app that uses the Dragula framework for simple, non-persistent drag and drop functionality.
+This is an example app that uses the [Dragula](https://github.com/bevacqua/dragula) framework for simple, non-persistent drag and drop functionality.
 
 You can add new dragable elements, or drag-to/drag-from areas with css classes.
 
