@@ -1,0 +1,56 @@
+<!--
+Thanks to Dragula for drag and drop functionality
+https://bevacqua.github.io/dragula/
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Made with Thimble</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dragula.css">
+    <script src="https://thimble.mozilla.org/resources/remix/index.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <div id="left">
+      <div class="box l-red">
+        <div class="red square movable">This is a square div.</div>
+        <p class="red para movable">This is a paragraph.</p>
+        <h1 class="red header movable">3</h1>
+        <img src="logo.png" class="red image movable">
+      </div>
+      <div class="box l-green">
+        <div class="green square movable">This is a square div.</div>
+        <p class="green para movable">This is a paragraph.</p>
+        <h1 class="green header movable">3</h1>
+        <img src="logo.png" class="green image movable">
+      </div>
+      <div class="box l-blue">
+        <div class="blue square movable">This is a square div.</div>
+        <p class="blue para movable">This is a paragraph.</p>
+        <h1 class="blue header movable">3</h1>
+        <img src="logo.png" class="blue image movable">
+      </div>
+    </div>
+    <div id="right">
+      <h1>
+        Making drag and drop apps in Thimble with Dragula
+      </h1>
+
+      <p>
+        This is an example app that uses the <a href="https://github.com/bevacqua/dragula">Dragula</a> framework for simple, non-persistent drag and drop functionality.
+      </p>
+      <p>
+        You can add new dragable elements, or drag-to/drag-from areas with css classes.
+      </p>
+      <ul>
+        <li>Adding the class "box" to any HTML element will make that a place you can drag things into.</li>
+        <li>Any child element of a "box" class element is draggable into any other "box" class element.</li>
+        <li>You can use your own css classes by changing the script.js file.</li>
+      </ul>
+    </div>
+    <script src="dragula.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
